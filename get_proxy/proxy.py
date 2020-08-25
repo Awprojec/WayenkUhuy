@@ -11,6 +11,8 @@
 # File           : proxy.py                                #
 # Pembuat        :Abadi_Wayenk/Okeh                        #
 # Python version : 3.7++                                   #
+
+
 ############################################################
 
 import requests, os, shutil
