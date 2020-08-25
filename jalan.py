@@ -61,7 +61,7 @@ class MOONTON:
     self.proxy_list = []
     self.api = url
     self.loop = 0
-    print('''\099[0m
+    print('''\033[0m
 
     #     #     @@      &       &  ☆☆☆☆☆☆    @@      ♡
     #   #     @    @    & &     &     ☆      @    @    ♡
@@ -113,10 +113,10 @@ class MOONTON:
 
   def main(self):
     print(
-      '[!] Pemisah email:password atau email|password\n'
+      '[!] Pemisah email:password KONTOL\n'
     )
     empas = input(
-      '[?] List empas (ex: list.txt): '
+      '[?] Empasnya coek (ex: list.txt): '
     )
     if os.path.exists(
       empas
@@ -187,10 +187,10 @@ class MOONTON:
         self.userdata
       ) == 0:
         exit(
-          '[!] Empas tidak ada atau tidak valid pastikan berformat email:pass atau email|pass'
+          '[!] Empas tidak ada atau tidak valid pastikan berformat email:pass Tolol'
         )
       print(
-        '[*] Total {0} account'.format(
+        '[*] Total {0} akun'.format(
           str(
             len(
               self.userdata
@@ -199,7 +199,7 @@ class MOONTON:
         )
       )
       ask = input(
-        '[?] Apakah ingin menggunakan proxy?(\033[92mDisarankan\033[0m) [Y/t]: '
+        '[?] Apakah ingin menggunakan proxy?[Y/t]: '
       )
       if ask.lower(
       ).strip(
@@ -354,7 +354,10 @@ class MOONTON:
           print(
             '\r[\033[92mLIVE\033[0m] '+user[
               'userdata'
-             ]+' -> (\033[92mSuccess login\033[0m)'
+             ]+' -> (\033[92mResult Bosss\# Name           : Moonton Account Checker                 #
+# File           : jalan.py                              #
+# Author         : Abadi_Wayenk                            #
+# Github         : https://github.com/Awprojec             #033[0m)'
           )
           self.live.append(
             user[
@@ -475,7 +478,7 @@ class MOONTON:
         )
         self.loop+=1
         print(
-          end='\r[*] Checked: %s/%s LIVE: %s - DIEE: %s '%(
+          end='\r[*] Ngeceker: %s dari/%s LIVE: %s - DIEE: %s '%(
             str(
               self.loop
             ),
