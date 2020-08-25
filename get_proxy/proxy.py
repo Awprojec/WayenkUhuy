@@ -6,9 +6,9 @@
 # * LHO SEMUA KONTOL
 
 ############################################################
-# Name           : Checker-Moonton                   #
-# File               : proxy.py                                     #
-# Pembuat     :Abadi_Wayenk/Okeh               #
+# Name           : Checker-Moonton                         #
+# File           : proxy.py                                #
+# Pembuat        :Abadi_Wayenk/Okeh                        #
 # Python version : 3.7++                                   #
 ############################################################
 
@@ -27,12 +27,12 @@ valid_proxy = []
 def prox():
   print('''
 [1] Ambil proxy dari situs (free-proxy-list.com)
-[2] Ambil proxy dari situs (free-proxy-list.net)[\033[92mDisarankan\033[0m]
+[2] Ambil proxy dari situs (free-proxy-list.net)
 [3] Dari file
   ''')
   ask = int(
     input(
-      '[?] Chose: '
+      '[?] Mileh sng ndi cok: '
     )
   )
   if ask == 1:
@@ -147,7 +147,7 @@ def proxy_com():
     proxy_list
   ) != 0:
     print(
-      '\n[*] Mencari proxy valid'
+      '\n[*] Golek'i proxy valid'
     )
     with ThreadPoolExecutor(
       max_workers=50
@@ -175,7 +175,7 @@ def proxy_com():
 
 def proxy_net():
   print(
-    '[*] Mencari proxy valid'
+    '[*] Golek'i proxy valid'
   )
   r = requests.get(
     'https://free-proxy-list.net/',
