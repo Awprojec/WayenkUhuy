@@ -354,10 +354,7 @@ class MOONTON:
           print(
             '\r[\033[92mLIVE\033[0m] '+user[
               'userdata'
-             ]+' -> (\033[92mResult Bosss\# Name           : Moonton Account Checker                 #
-# File           : jalan.py                              #
-# Author         : Abadi_Wayenk                            #
-# Github         : https://github.com/Awprojec             #033[0m)'
+             ]+' -> (\033[92mResult Bosss\# Name
           )
           self.live.append(
             user[
