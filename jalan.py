@@ -83,7 +83,9 @@ ______________________________________________
 # Python version : 3.7++   
 ################################################
 
-  def auto_upper(self, string):
+  
+
+def auto_upper(self, string):
     text = ''.join(
       re.findall(
         '[a-z-A-Z]',
