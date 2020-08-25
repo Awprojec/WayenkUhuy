@@ -6,10 +6,10 @@
 # * NGERTI KONTOL PORAK
 
 ###############################################################
-# Name           :[\033[92mChecker-Moonton\033[0m]                          #      #       $$$           @@           @
-# File           :[\033[92mjalan.py\033[0m]                                                             #   #        $        $        @   @        @
-# Pembuat        :[\033[92mAbadi_Wayenk/Okeh\033[0m]                                    ##          $           $      @      @     @
-# Github         :[\033[92mhttps://github.com/Awprojec\033[0m]                    #  #          $        $        @        @   @
+# Name           : Checker-Moonton                                         #      #       $$$           @@           @
+# File               : jalan.py                                                            #   #        $        $        @   @        @
+# Pembuat     : Abadi_Wayenk/Okeh                                   ##          $           $      @      @     @
+# Github         : https://github.com/Awprojec                   #  #          $        $        @        @   @
 # Python version : 3.7++                                                       #       #        $$$           @           @@
 ###############################################################
 
@@ -60,25 +60,16 @@ class MOONTON:
     self.api = url
     self.loop = 0
     print('''\033[0m
-__________________________________________________________
-----------------------------------------------------------|
-                    _    \   /  _____  |\      |     __   |
-   \       _      /  \    \_/  |       |  \    |   /    \ |
-    \    /   \   /____\    |   |----   |    \  |  |   ___ |
-      \_/     \_/      \   |   |_____  |      \|   \____/ |
-----------------------------------------------------------|
-__________________________________________________________|
-         》》》- SENG GAWE(Abadi_Wayenk) -《《《
+                              _       \      /  _____  |\       |       __
+  \           _           /   \       \_/   |           |  \     |    /      \
+    \      /    \      /____\       |     | ---       |    \   |   |   ___
+      \_/        \_/            \    |      |_____  |       \|    \___/
+---------------------------------------------
+- SENG GAWE(Abadi_Wayenk) -
 ---------------------------------------------\n''')
-##################################################################
-            # Lontong Ojo Di Ganti Jenengku:( #                  #
-            -----------------------------------                  #
-# Name           :[\033[92mChecker-Moonton\033[0m]               #      #       $$$           @@           @
-# File           :[\033[92mjalan.py\033[0m]                      #                                              #   #        $        $        @   @        @
-# Pembuat        :[\033[92mAbadi_Wayenk/Okeh\033[0m]             #                      ##          $           $      @      @     @
-# Github         :[\033[92mhttps://github.com/Awprojec\033[0m]   #                #  #          $        $        @        @   @
-# Python version : 3.7++                                         #
-##################################################################
+##########################################
+# Lontong Ojo Di Ganti Jenengku:( #
+##########################################
 
   def auto_upper(self, string):
     text = ''.join(
@@ -114,7 +105,7 @@ __________________________________________________________|
 
   def main(self):
     print(
-      '[%] Pemisah email:password kontol\n'
+      '[!] Pemisah email:password kontol\n'
     )
     empas = input(
       '[?] List empas (ex: list.txt): '
@@ -200,7 +191,7 @@ __________________________________________________________|
         )
       )
       ask = input(
-        '[?] Apakah ingin menggunakan proxy?(\033[92mDisarankan\033[0m) [Y/t]: '
+        '[?] Apakah ingin menggunakan proxy? [Y/t]: '
       )
       if ask.lower(
       ).strip(
@@ -476,7 +467,7 @@ __________________________________________________________|
         )
         self.loop+=1
         print(
-          end='\r[*] Ngecek: %s dari/%s LIVE: %s - DIEE: %s '%(
+          end='\r[*] Checked: %s/%s LIVE: %s - DIEE: %s '%(
             str(
               self.loop
             ),
