@@ -61,7 +61,7 @@ class MOONTON:
     self.proxy_list = []
     self.api = url
     self.loop = 0
-    print('''\033[0m
+    print('''\099[0m
 
     #     #     @@      &       &  ☆☆☆☆☆☆    @@      ♡
     #   #     @    @    & &     &     ☆      @    @    ♡
