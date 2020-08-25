@@ -3,15 +3,17 @@
 #
 # * RECODE? OKE GAK MASSALAH
 # * TAPI YA JANGAN DI JUAL KONTOL
-# * NGERTI KONTOL PORAK
+#
 
-###############################################################
-# Name           : Checker-Moonton                                         #      #       $$$           @@           @
-# File               : jalan.py                                                            #   #        $        $        @   @        @
-# Pembuat     : Abadi_Wayenk/Okeh                                   ##          $           $      @      @     @
-# Github         : https://github.com/Awprojec                   #  #          $        $        @        @   @
-# Python version : 3.7++                                                       #       #        $$$           @           @@
-###############################################################
+############################################################
+# Name           : Moonton Account Checker                 #
+# File           : moonton.py                              #
+# Author         : DulLah                                  #
+# Github         : https://github.com/dz-id                #
+# Facebook       : https://www.facebook.com/dulahz         #
+# Telegram       : https://t.me/DulLah                     #
+# Python version : 3.7++                                   #
+############################################################
 
 import os, sys, hashlib, json, random, re
 from get_proxy import proxy
@@ -60,16 +62,27 @@ class MOONTON:
     self.api = url
     self.loop = 0
     print('''\033[0m
+
                               _       \      /  _____  |\       |       __
   \           _           /   \       \_/   |           |  \     |    /      \
     \      /    \      /____\       |     | ---       |    \   |   |   ___
       \_/        \_/            \    |      |_____  |       \|    \___/
 ---------------------------------------------
-- SENG GAWE(Abadi_Wayenk) -
+        》》》- SENG GAWE(Abadi_Wayenk) -《《《
 ---------------------------------------------\n''')
 ##########################################
 # Lontong Ojo Di Ganti Jenengku:( #
 ##########################################
+# * RECODE? OKE GAK MASSALAH
+# * TAPI YA JANGAN DI JUAL KONTOL
+# * NGERTI KONTOL PORAK
+###############################################################
+# Name           : Checker-Moonton                                         #      #       $$$           @@           @
+# File               : jalan.py                                                            #   #        $        $        @   @        @
+# Pembuat     : Abadi_Wayenk/Okeh                                   ##          $           $      @      @     @
+# Github         : https://github.com/Awprojec                   #  #          $        $        @        @   @
+# Python version : 3.7++   
+
 
   def auto_upper(self, string):
     text = ''.join(
@@ -105,7 +118,7 @@ class MOONTON:
 
   def main(self):
     print(
-      '[!] Pemisah email:password kontol\n'
+      '[!] Pemisah email:password atau email|password\n'
     )
     empas = input(
       '[?] List empas (ex: list.txt): '
@@ -191,7 +204,7 @@ class MOONTON:
         )
       )
       ask = input(
-        '[?] Apakah ingin menggunakan proxy? [Y/t]: '
+        '[?] Apakah ingin menggunakan proxy?(\033[92mDisarankan\033[0m) [Y/t]: '
       )
       if ask.lower(
       ).strip(
