@@ -85,7 +85,7 @@ ______________________________________________
 
   
 
-def auto_upper(self, string):
+  def auto_upper(self, string):
     text = ''.join(
       re.findall(
         '[a-z-A-Z]',
