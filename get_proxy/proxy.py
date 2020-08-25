@@ -147,7 +147,7 @@ def proxy_com():
     proxy_list
   ) != 0:
     print(
-      '\n[*] Goleki proxy valid'
+      '\n[*] Mencari proxy valid'
     )
     with ThreadPoolExecutor(
       max_workers=50
@@ -175,7 +175,7 @@ def proxy_com():
 
 def proxy_net():
   print(
-    '[*] Goleki proxy valid'
+    '[*] Mencari proxy valid'
   )
   r = requests.get(
     'https://free-proxy-list.net/',
