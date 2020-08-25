@@ -147,7 +147,7 @@ def proxy_com():
     proxy_list
   ) != 0:
     print(
-      '\n[*] Golek'i proxy valid'
+      '\n[*] Goleki proxy valid'
     )
     with ThreadPoolExecutor(
       max_workers=50
@@ -170,12 +170,12 @@ def proxy_com():
       '[!] Maaf tidak ada proxy yang valid silahkan coba lagi :('
     )
   else: exit(
-    '[!] Maaf proxy tidak ada :('
+    '[!] Kontol proxy tidak ada :('
   )
 
 def proxy_net():
   print(
-    '[*] Golek'i proxy valid'
+    '[*] Goleki proxy valid'
   )
   r = requests.get(
     'https://free-proxy-list.net/',
@@ -222,10 +222,10 @@ def proxy_net():
       )
       return valid_proxy
     else: exit(
-      '[!] Maaf tidak ada proxy yang valid silahkan coba lagi :('
+      '[!] Kontol tidak ada proxy yang valid silahkan coba lagi :('
     )
   else: exit(
-    '[!] Maaf proxy tidak ada :('
+    '[!] Kontol proxy tidak ada :('
   )
 
 def from_file():
