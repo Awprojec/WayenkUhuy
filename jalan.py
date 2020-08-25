@@ -72,15 +72,6 @@ class MOONTON:
 ---------------------------------------------\n''')
 ################################################
 # Lontong Ojo Di Ganti Jenengku:( #
-# * RECODE? OKE GAK MASSALAH
-# * TAPI YA JANGAN DI JUAL KONTOL
-# * LHO SEMUA KOMTOL
-______________________________________________
-# Name           : Checker-Moonton                                         #      #       $$$           @@           @
-# File           : jalan.py                                                            #   #        $        $        @   @        @
-# Pembuat        : Abadi_Wayenk/Okeh                                   ##          $           $      @      @     @
-# Github         : https://github.com/Awprojec                   #  #          $        $        @        @   @
-# Python version : 3.7++   
 ################################################
 
   def auto_upper(self, string):
