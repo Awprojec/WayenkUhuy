@@ -4,6 +4,7 @@
 # * RECODE? OKE GAK MASSALAH
 # * TAPI YA JANGAN DI JUAL KONTOL
 # * LHO SEMUA KONTOL
+#
 
 ############################################################
 # Name           : Checker-Moonton                         #
