@@ -354,7 +354,7 @@ class MOONTON:
           print(
             '\r[\033[92mLIVE\033[0m] '+user[
               'userdata'
-             ]+' -> (\033[92mResult Bosss\# Name
+             ]+' -> (\033[92mResult Bosss\033[0m)'
           )
           self.live.append(
             user[
