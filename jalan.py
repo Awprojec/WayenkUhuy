@@ -79,6 +79,7 @@ class MOONTON:
 ################################################
 # Lontong Ojo Di Ganti Jenengku:( #
 # Lho Semua Kontol Okehh....:) #
+# Ojo Di Jual Belikan!!1:) #
 ################################################
 
   def auto_upper(self, string):
@@ -118,7 +119,7 @@ class MOONTON:
       '[!] Pemisah email:password KONTOL\n'
     )
     empas = input(
-      '[?] Empasnya coek (ex: list.txt): '
+      '[?] Empasnya coek (ex: nama.txt): '
     )
     if os.path.exists(
       empas
@@ -189,7 +190,7 @@ class MOONTON:
         self.userdata
       ) == 0:
         exit(
-          '[!] Empas tidak ada atau tidak valid pastikan berformat email:pass Tolol'
+          '[!] Empas rak ono pastek e berformat email:pass Tolol'
         )
       print(
         '[*] Total {0} akun'.format(
@@ -201,7 +202,7 @@ class MOONTON:
         )
       )
       ask = input(
-        '[?] Apakah ingin menggunakan proxy?[Y/t]: '
+        '[?] Apakah ingin menggunakan proxy?[Y/t]\033[92mSARAN(Y)\033[0m: '
       )
       if ask.lower(
       ).strip(
