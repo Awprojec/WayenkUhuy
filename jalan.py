@@ -74,9 +74,11 @@ class MOONTON:
 # File           : jalan.py                                #
 # Author         : Abadi_Wayenk                            #
 # Github         : https://github.com/Awprojec             #
+# Facebokk       : https://www.facebook.com/abadi.wayenk/  #
 ------------------------------------------------------------------\n''')
 ################################################
 # Lontong Ojo Di Ganti Jenengku:( #
+# Lho Semua Kontol Okehh....:) #
 ################################################
 
   def auto_upper(self, string):
@@ -352,7 +354,7 @@ class MOONTON:
           'message'
          ] == 'Error_Success':
           print(
-            '\r[\033[92mLIVE\033[0m] '+user[
+            '\r[\033[91mLIVE\033[0m] '+user[
               'userdata'
              ]+' -> (\033[92mResult Bosss\033[0m)'
           )
@@ -376,9 +378,9 @@ class MOONTON:
           'message'
          ] == 'Error_PasswdError':
           print(
-            '\r[\033[91mDIEE\033[0m] '+user[
+            '\r[\033[92mDIEE\033[0m] '+user[
               'userdata'
-            ]+' -> (\033[91mWrong password\033[0m)'
+            ]+' -> (\033[91mpassword salah\033[0m)'
           )
           self.wrong_password.append(
             user[
@@ -400,7 +402,7 @@ class MOONTON:
           'message'
          ] == 'Error_PwdErrorTooMany':
           print(
-            '\r[\033[91mDIEE\033[0m] '+user[
+            '\r[\033[92mDIEE\033[0m] '+user[
               'userdata'
             ]+' -> (\033[91mLimit login\033[0m)'
           )
@@ -424,9 +426,9 @@ class MOONTON:
           'message'
         ] == 'Error_NoAccount':
           print(
-            '\r[\033[91mDIEE\033[0m] '+user[
+            '\r[\033[92mDIEE\033[0m] '+user[
               'userdata'
-            ]+' -> (\033[91mWrong email\033[0m)'
+            ]+' -> (\033[91memail salah\033[0m)'
           )
           self.wrong_email.append(
             user[
@@ -475,7 +477,7 @@ class MOONTON:
         )
         self.loop+=1
         print(
-          end='\r[*] Ngeceker: %s dari/%s LIVE: %s - DIEE: %s '%(
+          end='\r[*] Ngeceker: %s akun dari/%s akun LIVE: %s akun - DIEE: %s akun '%(
             str(
               self.loop
             ),
