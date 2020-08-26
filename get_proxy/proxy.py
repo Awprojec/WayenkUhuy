@@ -31,7 +31,7 @@ def prox():
   print('''
 [1] Ambil proxy dari situs (free-proxy-list.com)
 [2] Ambil proxy dari situs (free-proxy-list.net)
-[3] Dari file
+[3] Dari folder
   ''')
   ask = int(
     input(
@@ -65,7 +65,7 @@ def proxy_checker(prox):
         prox
       )
     print(
-      end='\r[+] Ditemukan (%s) proxy valid.'%(
+      end='\r[+] Wes temu (%s) proxy aktif.'%(
         len(
           valid_proxy
         )
@@ -150,7 +150,7 @@ def proxy_com():
     proxy_list
   ) != 0:
     print(
-      '\n[*] Mencari proxy valid'
+      '\n[*] Luru proxy aktif'
     )
     with ThreadPoolExecutor(
       max_workers=50
@@ -178,7 +178,7 @@ def proxy_com():
 
 def proxy_net():
   print(
-    '[*] Mencari proxy valid'
+    '[*] Luru proxy aktif'
   )
   r = requests.get(
     'https://free-proxy-list.net/',
@@ -271,7 +271,7 @@ def from_file():
         )
       )
       print(
-        '[*] Mencari proxy valid'
+        '[*] Luru proxy aktif'
       )
       with ThreadPoolExecutor(
         max_workers=50
