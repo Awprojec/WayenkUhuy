@@ -9,9 +9,8 @@
 # Name           : Moonton Account Checker                 #
 # File           : moonton.py                              #
 # Author         : DulLah                                  #
-# Github         : https://github.com/dz-id                #
-# Facebook       : https://www.facebook.com/dulahz         #
-# Telegram       : https://t.me/DulLah                     #
+# Github         : https://github.com/Awprojec             #
+# Facebook       : https://www.facebook.com/abadi.wayenk/  #
 # Python version : 3.7++                                   #
 ############################################################
 
@@ -63,7 +62,7 @@ class MOONTON:
     self.loop = 0
     print('''\033[0m
 
-    #     #     @@      &       &  ☆☆☆☆☆    @@      ♡
+    #     #     @@      &       &  ☆☆☆☆☆     @@      ♡
     #   #     @    @    & &     &     ☆      @    @    ♡
     # #       @    @    &   &   &     ☆      @    @    ♡
     #   #     @    @    &     & &     ☆      @    @    ♡
