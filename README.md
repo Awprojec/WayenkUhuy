@@ -1,5 +1,9 @@
 #GAWE CHECKER AKUN MOONTOD
 
+seperti gambar ini
+
+![IMG](SS.jpg)
+
 ## Install
 ```
 pkg update && pkg upgrade
