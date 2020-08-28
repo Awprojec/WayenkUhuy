@@ -7,8 +7,8 @@
 
 ############################################################
 # Name           : Moonton Account Checker                 #
-# File           : moonton.py                              #
-# Author         : DulLah                                  #
+# File           : jalan.py                                #
+# Author         : Wayenk                                  #
 # Github         : https://github.com/Awprojec             #
 # Facebook       : https://www.facebook.com/abadi.wayenk/  #
 # Python version : 3.7++                                   #
@@ -159,7 +159,7 @@ class MOONTON:
         except IndexError:
           try:
             user = data.strip().split(
-              ':'
+              '|'
             )
             if user[
               0
@@ -477,7 +477,7 @@ class MOONTON:
         )
         self.loop+=1
         print(
-          end='\r[*] Ngeceker: %s akun dari/%s akun LIVE: %s akun - DIEE: %s akun '%(
+          end='\r[*] Ngeceker: %s akun dari/%s akun LIVE: %s akun - DIEE: %s akun '
             str(
               self.loop
             ),
