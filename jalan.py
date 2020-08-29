@@ -71,6 +71,7 @@ class MOONTON:
     # #       @    @    &   &   &     ☆      @    @    ♡
     #   #     @    @    &     & &     ☆      @    @    ♡
     #     #     @@      &       &     ☆        @@      ♡♡♡♡♡♡ ₩
+------------------------------------------------------------------
                》》》- SENG GAWE(Abadi_Wayenk) -《《《
 # Name           : Checker Akun Moonton                    #
 # File           : jalan.py                                #
