@@ -7,10 +7,11 @@
 
 ############################################################
 # Name           : Moonton Account Checker                 #
-# File           : jalan.py                                #
-# Author         : Wayenk                                  #
-# Github         : https://github.com/Awprojec             #
-# Facebook       : https://www.facebook.com/abadi.wayenk/  #
+# File           : moonton.py                              #
+# Author         : DulLah                                  #
+# Github         : https://github.com/dz-id                #
+# Facebook       : https://www.facebook.com/dulahz         #
+# Telegram       : https://t.me/DulLah                     #
 # Python version : 3.7++                                   #
 ############################################################
 
@@ -62,7 +63,7 @@ class MOONTON:
     self.loop = 0
     print('''\033[0m
 
-      ___ _           _           
+     ___ _           _           
      / __| |_  ___ __| |_____ _ _   |V| _  _ __ _|_ _  __ 
     | (__| ' \/ -_) _| / / -_) '_|  | |(_)(_)| | |_(_)|  |
     \___|_||_\___\__|_\_\___|_|'''+W+'Creator : ./Wayenk\n\t   YT :CHANNEL GRATISAN')
@@ -70,19 +71,13 @@ class MOONTON:
     #   #     @    @    & &     &     ☆      @    @    ♡
     # #       @    @    &   &   &     ☆      @    @    ♡
     #   #     @    @    &     & &     ☆      @    @    ♡
-    #     #     @@      &       &     ☆        @@      ♡♡♡♡♡♡ ₩
-
-----------------------------------------------
-               》》》- SENG GAWE(Abadi_Wayenk) -《《《
-# Author         : Abadi_Wayenk                            #
-# Github         : https://github.com/Awprojec             #
-# Facebokk       : https://www.facebook.com/abadi.wayenk/  #
+    #     #     @@      &       &     ☆        @@      ♡♡♡♡♡♡♡
+---------------------------------------------
+          - Created By (Abadi_Wayenk) -
 ---------------------------------------------\n''')
-################################################
-# Lontong Ojo Di Ganti Jenengku:( #
-# Lho Semua Kontol Okehh....:) #
-# Ojo Di Jual Belikan!!1:) #
-################################################
+##########################################
+# Please don't remove the author name :( #
+##########################################
 
   def auto_upper(self, string):
     text = ''.join(
@@ -118,10 +113,10 @@ class MOONTON:
 
   def main(self):
     print(
-      '[!] Pemisah email:password(:)/(/)KONTOL\n'
+      '[!] Pemisah email:password atau email|password\n'
     )
     empas = input(
-      '[?] Empasnya coek (ex: nama.txt): '
+      '[?] List empas (ex: list.txt): '
     )
     if os.path.exists(
       empas
@@ -134,7 +129,7 @@ class MOONTON:
         try:
           user = data.strip(
           ).split(
-            ':'
+            '|'
           )
           if user[
            0
@@ -162,7 +157,7 @@ class MOONTON:
         except IndexError:
           try:
             user = data.strip().split(
-              '|'
+              ':'
             )
             if user[
               0
@@ -192,10 +187,10 @@ class MOONTON:
         self.userdata
       ) == 0:
         exit(
-          '[!] Empas rak ono pastek e berformat email:pass Tolol'
+          '[!] Empas tidak ada atau tidak valid pastikan berformat email:pass atau email|pass'
         )
       print(
-        '[*] Total {0} akun'.format(
+        '[*] Total {0} account'.format(
           str(
             len(
               self.userdata
@@ -204,7 +199,7 @@ class MOONTON:
         )
       )
       ask = input(
-        '[?] Apakah ingin menggunakan proxy?[Y/T]\033[92mSARAN(Y)\033[0m: '
+        '[?] Apakah ingin menggunakan proxy?(\033[92mDisarankan\033[0m) [Y/t]: '
       )
       if ask.lower(
       ).strip(
@@ -357,9 +352,9 @@ class MOONTON:
           'message'
          ] == 'Error_Success':
           print(
-            '\r[\033[91mLIVE\033[0m] '+user[
+            '\r[\033[92mLIVE\033[0m] '+user[
               'userdata'
-             ]+' -> (\033[92mResult Bosss\033[0m)'
+             ]+' -> (\033[92mSuccess login\033[0m)'
           )
           self.live.append(
             user[
@@ -381,9 +376,9 @@ class MOONTON:
           'message'
          ] == 'Error_PasswdError':
           print(
-            '\r[\033[92mDIEE\033[0m] '+user[
+            '\r[\033[91mDIEE\033[0m] '+user[
               'userdata'
-            ]+' -> (\033[91mpassword salah\033[0m)'
+            ]+' -> (\033[91mWrong password\033[0m)'
           )
           self.wrong_password.append(
             user[
@@ -405,7 +400,7 @@ class MOONTON:
           'message'
          ] == 'Error_PwdErrorTooMany':
           print(
-            '\r[\033[92mDIEE\033[0m] '+user[
+            '\r[\033[91mDIEE\033[0m] '+user[
               'userdata'
             ]+' -> (\033[91mLimit login\033[0m)'
           )
@@ -429,9 +424,9 @@ class MOONTON:
           'message'
         ] == 'Error_NoAccount':
           print(
-            '\r[\033[92mDIEE\033[0m] '+user[
+            '\r[\033[91mDIEE\033[0m] '+user[
               'userdata'
-            ]+' -> (\033[91memail salah\033[0m)'
+            ]+' -> (\033[91mWrong email\033[0m)'
           )
           self.wrong_email.append(
             user[
@@ -480,7 +475,7 @@ class MOONTON:
         )
         self.loop+=1
         print(
-          end='\r[*] Ngeceker: %s akun dari/%s akun LIVE: %s akun - DIEE: %s akun '
+          end='\r[*] Checked: %s/%s LIVE: %s - DIEE: %s '%(
             str(
               self.loop
             ),
