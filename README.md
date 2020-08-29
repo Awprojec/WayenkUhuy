@@ -6,9 +6,7 @@ seperti gambar ini
 
 ## Install
 
-## ENJOY TO CHECKING
 
-## GOOD BAY
 ```
 pkg update && pkg upgrade
 termux-setup-storage
@@ -19,5 +17,7 @@ git clone https://github.com/Awprojec/WayenkUhuy
 cd WayenkUhuy
 python jalan.py
 ```
+## ENJOY TO CHECKING
 
+## GOOD BAY
 ```Jangan Lupa Bacot Yahh```
