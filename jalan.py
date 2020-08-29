@@ -71,14 +71,14 @@ class MOONTON:
     # #       @    @    &   &   &     ☆      @    @    ♡
     #   #     @    @    &     & &     ☆      @    @    ♡
     #     #     @@      &       &     ☆        @@      ♡♡♡♡♡♡ ₩
-------------------------------------------------------------------
+------------------------------------------------------------
                》》》- SENG GAWE(Abadi_Wayenk) -《《《
 # Name           : Checker Akun Moonton                    #
 # File           : jalan.py                                #
 # Author         : Abadi_Wayenk                            #
 # Github         : https://github.com/Awprojec             #
 # Facebokk       : https://www.facebook.com/abadi.wayenk/  #
-------------------------------------------------------------------\n''')
+------------------------------------------------------------\n''')
 ################################################
 # Lontong Ojo Di Ganti Jenengku:( #
 # Lho Semua Kontol Okehh....:) #
