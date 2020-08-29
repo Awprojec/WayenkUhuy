@@ -62,6 +62,10 @@ class MOONTON:
     self.loop = 0
     print('''\033[0m
 
+      ___ _           _           
+     / __| |_  ___ __| |_____ _ _   |V| _  _ __ _|_ _  __ 
+    | (__| ' \/ -_) _| / / -_) '_|  | |(_)(_)| | |_(_)|  |
+    \___|_||_\___\__|_\_\___|_|'''+W+'Creator : ./Wayenk\n\t   YT :CHANNEL GRATISAN')
     #     #     @@      &       &  ☆☆☆☆☆     @@      ♡
     #   #     @    @    & &     &     ☆      @    @    ♡
     # #       @    @    &   &   &     ☆      @    @    ♡
@@ -115,7 +119,7 @@ class MOONTON:
 
   def main(self):
     print(
-      '[!] Pemisah email:password KONTOL\n'
+      '[!] Pemisah email:password(:)/(/)KONTOL\n'
     )
     empas = input(
       '[?] Empasnya coek (ex: nama.txt): '
@@ -131,7 +135,7 @@ class MOONTON:
         try:
           user = data.strip(
           ).split(
-            '|'
+            ':'
           )
           if user[
            0
@@ -201,7 +205,7 @@ class MOONTON:
         )
       )
       ask = input(
-        '[?] Apakah ingin menggunakan proxy?[Y/t]\033[92mSARAN(Y)\033[0m: '
+        '[?] Apakah ingin menggunakan proxy?[Y/T]\033[92mSARAN(Y)\033[0m: '
       )
       if ask.lower(
       ).strip(
