@@ -30,7 +30,7 @@ valid_proxy = []
 def prox():
   print('''
 [1] Ambil proxy dari situs (free-proxy-list.com)
-[2] Ambil proxy dari situs (free-proxy-list.net)
+[2] Ambil proxy dari situs (free-proxy-list.net)\033[92mSARAN\033[0m
 [3] Dari folder
   ''')
   ask = int(
@@ -49,7 +49,7 @@ def prox():
     )
   else:
     exit(
-      '\n[!] Goblokk ajg, elu butaa yaaa?'
+      '\n[!] Goblokk ajg, elu butaa yaaa?!!'
     )
 
 def proxy_checker(prox):
@@ -113,7 +113,7 @@ def proxy_com():
             proxy.strip().split(':')
           ) == 2 else None
           print(
-            end='\r[+] Mengambil (%s) proxy.'%(
+            end='\r[+] Jupok (%s) proxy.'%(
               len(proxy_list)
             ),
             flush=True
@@ -127,7 +127,7 @@ def proxy_com():
             break
       if found == False:
         print(
-          '\n[!] Hanya bisa mengambil (%s) proxy' %(
+          '\n[!] Cuman iso jupok (%s) proxy' %(
             str(
               len(
                 proxy_list
@@ -236,7 +236,7 @@ def from_file():
     '\n[!] Pemisah ip:port ex: 10.1.3:8080'
   )
   list = input(
-    '[?] List proxy (ex: proxy.txt): '
+    '[?] List proxy (ex: NAMA.txt): '
   )
   if os.path.exists(
     list
