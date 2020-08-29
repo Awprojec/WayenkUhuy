@@ -72,7 +72,7 @@ class MOONTON:
     #   #     @    @    &     & &     ☆      @    @    ♡
     #     #     @@      &       &     ☆        @@      ♡♡♡♡♡♡ ₩
 
---------------------------------------------- 
+----------------------------------------------
                》》》- SENG GAWE(Abadi_Wayenk) -《《《
 # Author         : Abadi_Wayenk                            #
 # Github         : https://github.com/Awprojec             #
